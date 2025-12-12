@@ -15,14 +15,13 @@ This repository mirrors [haskell-CI/haskell-ci](https://github.com/haskell-CI/ha
   - Assets: `haskell-ci-<sha>-musl-static.tar.gz` + `.sha256`
 - Architectures:
   - x86_64 (musl, built in Alpine)
-  - aarch64 (musl, built in Alpine)
 
 No tag analysis or versioned releases are produced.
 
 ## Download example
 
 ```bash
-BASE_URL="https://github.com/ulysses4ever/haskell-ci-binaries/releases/download/continuous"
+BASE_URL="https://github.com/haskell-ci-community/haskell-ci-binaries/releases/download/continuous"
 ASSET="haskell-ci-x86_64-musl-static.tar.gz"
 
 curl -L -o "$ASSET" "$BASE_URL/$ASSET"
